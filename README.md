@@ -14,3 +14,17 @@ O sistema simula o gerenciamento de blocos de memória RAM através de um menu i
 - Validação de entradas e prevenção de erros (ex: dupla liberação de blocos).
 
 ## 📁 Estrutura do Projeto
+```text
+gerenciador-memoria/
+├── main.c      # Interface com o usuário e controle do menu
+├── memoria.c   # Implementação das funções de gerenciamento de memória
+└── memoria.h   # Protótipos das funções, estruturas e definições de constantes
+
+## 🚀 Como Compilar e Executar
+Via Terminal (GCC):
+Bash
+# Compilação dos módulos
+gcc main.c memoria.c -o gerenciador_memoria
+
+# Execução
+./gerenciador_memoria
